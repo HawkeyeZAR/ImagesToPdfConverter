@@ -12,10 +12,12 @@ it will be zoomed in over 100%.  When zooming out, the pdf should look exatly li
 Current Image formats supported and tested: ["bmp", "gif", "png", "jpeg", "jpg", "tiff"]
 Some .tiff and .gif fail, not sure why, looks image data related.
 
-Folder Locations Used by this service
---------------------------------------
+Folder Locations Used by this service - Must keep this structure - Don't delete or rename
+------------------------------------------------------------------------------------------
 ImageSource(To Monitor):  .\ConvertToPdf\ImagesToConvert
+
 Saved Pdf location:  .\ConvertToPdf\Converted
+
 Backup Folder:  .\ConvertToPdf\ImageBackups
 
 
