@@ -6,7 +6,7 @@ It uses the PdfSharp Opensource Framework.
 
 Currently it is set to check the folder for any new images every 60 seconds.
 Once an image is found, it will convert it to a pdf and move the original image to a backup folder.
-The pdf page size is the to the same size as the image, so at times when you open the pdf,
+The pdf page size is set to the same size as the image, so at times when you open the pdf,
 it will be zoomed in over 100%.  When zooming out, the pdf should look exatly like the image.
 
 Current Image formats supported and tested: ["bmp", "gif", "png", "jpeg", "jpg", "tiff"]
